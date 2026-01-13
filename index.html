@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tatiana's Closet</title>
+    
+     <!-- This is the link to my CSS file -->
+    <a href="https://www.tiktok.com/@tatianascloset65back/video/7592964613398940940">Visit Tatianas closet</a>
+
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: whitesmoke;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 30px;
+        }
+
+        .item {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 6px gray;
+        }
+
+        .item img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .item h3 {
+            margin: 10px 0 5px;
+        }
+
+        .item p {
+            color: green;
+            font-weight: bold;
+        }
+
+        .buttons {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        button {
+            padding: 12px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .add to cart-btn{
+            background-color: Blue;
+            color: white;
+        }
+
+        .order-btn {
+            background-color: green;
+            color: white;
+        }
+
+        .sign in-btn {
+            background-color: black;
+            color: white;
+        }
+         
+        .exit-btn {
+            background-color: red;
+            color: white;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Tatiana's Closet</h1>
+    <p>Classy looks, everyday.</p>
+    <p>Dress bold. Feel confident. Stand out.</p>
+    <p>All at affordable prices. Welcome ALL.</p>
+</header>
+
+<section class="products">
+
+    <!-- Handbags -->
+    <div class="item">
+        <img src="C:\Users\VIRGIN LOCKS\OneDrive\Pictures\Documents\handbags.jpeg" alt="Handbags">
+        <h3>Classic Handbags</h3>
+        <p>Ksh 1,200</p>
+        <button type="button" class="add to cart-btn">Add To Cart</button>
+    </div>
+
+    <!-- Dress -->
+    <div class="item">
+        <img src="C:\Users\VIRGIN LOCKS\OneDrive\Pictures\Documents\dress.jpeg" alt="Dress">
+        <h3>Elegant Dress</h3>
+        <p>Ksh 1,400</p>
+        <button type="button" class="add to cart-btn">Add To Cart</button>
+    </div>
+
+    <!-- Tennis Skirts -->
+    <div class="item">
+        <img src="C:\Users\VIRGIN LOCKS\OneDrive\Pictures\Documents\tenesi jpeg.jpeg" alt="tennis Skirts">
+        <h3>Stylish Tennis Skirts</h3>
+        <p>Ksh 1,300</p>
+        <button type="button" class="add to cart-btn">Add To Cart</button>
+    </div>
+
+    <!-- Nike Shoes -->
+    <div class="item">
+        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff" alt="Nike Shoes">
+        <h3>Nike Sneakers</h3>
+        <p>Ksh 4,500</p>
+        <button type="button" class="add to cart-btn">Add To Cart</button>
+    </div>
+
+</section>
+
+<div class="buttons">
+    <button class="order-btn">Place Order</button>
+    <button class="sign in-btn">Sign In</button>
+    <button class="exit-btn" onclick="window.close()">Exit</button>
+</div>
+
+
+<footer>
+    <p>📍 Location: Egerton Gate Opp Casablanca. Shop no.B-18</p>
+    <p>📞 Contact: +254 758 375 408</p>
+    <p>📧 Email: tatianagitonga@gmail.com</p>
+    <p>© 2026 Tatiana's Closet | Style That Speaks</p>
+</footer>
+
+</body>
+</html>
